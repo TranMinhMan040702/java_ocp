@@ -1,8 +1,15 @@
-import pond.goose.*;
 
 public class Test {
+    static {
+        System.out.println("Static initializer");
+    }
     public static void main(String[] args) {
-        LostDuckling lostDuckling = new LostDuckling();
-        lostDuckling.swim();
+        Snake snake = new Snake();
+    }
+}
+
+class Snake {
+    static {
+        System.out.println("Snake");
     }
 }
