@@ -1,0 +1,1 @@
+public class Clara extends Rhinoceros {}
