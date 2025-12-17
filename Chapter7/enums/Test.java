@@ -38,5 +38,16 @@ public class Test {
         // Example: Using methods in the enum
         Season.SUMMER.printExpectedVisitors();
         Season.WINTER.printExpectedVisitors();
+
+        // Example: Using abstract methods in the enum
+        OrderStatus status = OrderStatus.PENDING;
+        status.printMsg();
+
+        // Example: Using overridden methods in the enum
+        Gender.OTHER.printRate();
+
+        // Example: Implementing an interface in the enum
+        Bug bug = Priority.MEDIUM;
+        bug.printPriority();
     }
 }
