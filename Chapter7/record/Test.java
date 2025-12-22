@@ -12,5 +12,16 @@ public class Test {
         var o1 = new Order(101, "Processing");
         var o2 = new Order(101, "Processing");
         System.out.println(o1.equals(o2));      // true
+
+        var pr1 = new Product("shoe", 1);
+        System.out.println(pr1);
+
+        var u1 = new User("Tran Man", 23);
+        var u2 = new User("Tran", "Man", 23);
+        var u3 = new User(24, "Mantm");
+        System.out.println(u1);
+        System.out.println(u2);
+        System.out.println(u3);
+        System.out.println(u1.equals(u2));
     }
 }
